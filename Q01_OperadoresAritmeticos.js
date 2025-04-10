@@ -1,3 +1,9 @@
-var x = 2, y = 3;
+let x = prompt('Digite o valor de x:');
+let y = prompt('Digite o valor de y:');
 
-console.log((x**y + 3*x + 1)/(x + 1)); // 8 + 6 + 1 / 3 = 15 / 3 = 5
+x = Number(x);
+y = Number(y);
+
+let resultado = (x ** y + 3 * x + 1) / (x + 1);
+alert(`O resultado da expressão é: ${resultado}`);
+console.log(`Resultado: ${resultado}`);

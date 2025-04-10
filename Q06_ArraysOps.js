@@ -1,7 +1,3 @@
-//Crie um script para exemplificar como adicionar e remover elementos no início, no
-//fim da lista. Exemplificar também como adicionar e remover elementos em uma determinada posição da
-//lista
-
 let list = ['Fevereiro', 'Março', 'Dezembro'];
 
 let num = list.pop(); //remove elemento final
